@@ -61,7 +61,6 @@ object HomeTelefonia {
 			session.beginTransaction
 			session.saveOrUpdate(abonado)
 			session.getTransaction.commit
-			session.evict(abonado)
 		} catch {
 			case e : HibernateException => {
 			  session.getTransaction.rollback
