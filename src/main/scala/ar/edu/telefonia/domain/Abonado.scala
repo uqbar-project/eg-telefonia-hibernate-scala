@@ -50,6 +50,9 @@ abstract class Abonado {
   }
   
   def agregarLlamada(llamada : Llamada) = llamadas.add(llamada)
+  
+  def agregarFactura(factura : Factura) = facturas.add(factura)
+  
 }
 
 @Entity
