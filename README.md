@@ -1,5 +1,8 @@
 # Telefonía
 
+## Prerrequisitos
+Necesitás instalar un motor de base de datos relacional (te recomendamos [MySQL](https://www.mysql.com/) que es OpenSource y gratuito)
+
 ## Objetivo
 El ejemplo de [abonados de una empresa telefónica](https://sites.google.com/site/utndesign/material/guia-de-ejercicios/guia-modelado-datos/orm_telefonia) muestra cómo mapear relaciones de herencia, one-to-many y many-to-one en Hibernate.
 
