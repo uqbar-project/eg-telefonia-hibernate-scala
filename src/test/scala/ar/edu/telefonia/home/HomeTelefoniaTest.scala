@@ -5,7 +5,7 @@ import org.hibernate.LazyInitializationException
 import org.junit.runner.RunWith
 import org.scalatest._
 
-class TestHomeTelefonia extends FlatSpec with BeforeAndAfter with ShouldMatchers {
+class HomeTelefoniaTest extends FlatSpec with BeforeAndAfter with ShouldMatchers {
 
   var walterWhite: Abonado = _
   var jessePinkman: Abonado = _
