@@ -1,6 +1,6 @@
 # Telefonía
 
-[![Build Status](https://www.travis-ci.org/uqbar-project/eg-telefonia-hibernate-scala.svg?branch=master)](https://www.travis-ci.org/uqbar-project/eg-telefonia-hibernate-scala)
+[![Build Status](https://www.travis-ci.org/uqbar-project/eg-telefonia-hibernate-scala.svg?branch=jpa)](https://www.travis-ci.org/uqbar-project/eg-telefonia-hibernate-scala)
 
 ## Prerrequisitos
 Necesitás instalar un motor de base de datos relacional (te recomendamos [MySQL](https://www.mysql.com/) que es OpenSource y gratuito).
@@ -17,7 +17,7 @@ El ejemplo de [abonados de una empresa telefónica](https://sites.google.com/sit
 * SOLUCION: En Scala. Cuenta con JUnit tests para probar el dominio en forma aislada
 
 ## Configuraciones
-Previamente, entrá al recurso hibernate.cfg.xml (Ctrl + Shift + R > tipeá hibernate y te aparece) y 
+Previamente, entrá al recurso persistence.xml y
 cambiá la contraseña de root de tu base
 
 ``` xml

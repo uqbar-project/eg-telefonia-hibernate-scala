@@ -9,7 +9,7 @@ class HomeTelefoniaTest extends FlatSpec with BeforeAndAfter with ShouldMatchers
 
   var walterWhite: Abonado = _
   var jessePinkman: Abonado = _
-  var homeTelefonia = HomeTelefonia
+  var homeTelefonia = RepoTelefonia
   var llamada1: Llamada = new Llamada(walterWhite, jessePinkman, 10)
 
   before {
