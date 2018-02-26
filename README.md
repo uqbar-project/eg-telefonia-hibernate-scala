@@ -21,14 +21,14 @@ Previamente, entrá al recurso persistence.xml y
 cambiá la contraseña de root de tu base
 
 ``` xml
-<property name="hibernate.connection.password">xxxxx</property>
+<property name="javax.persistence.jdbc.password" value="xxxxxx" />
 ```
 
 Si vas a ponerle otro nombre al esquema (base de datos), tenés que modificar la configuración del hibernate.cfg.xml 
 para que apunte allí:
 
 ``` xml
-<property name="hibernate.connection.url">jdbc:mysql://localhost/telefonia</property>
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/telefonia" />
 ```
 
 ## Diagrama de entidad-relación
