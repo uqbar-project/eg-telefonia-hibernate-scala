@@ -1,26 +1,18 @@
 package ar.edu.telefonia.home
 
-import ar.edu.telefonia.domain.Abonado
-import ar.edu.telefonia.domain.Residencial
-import ar.edu.telefonia.domain.Factura
-import org.junit.Before
-import ar.edu.telefonia.domain.Rural
-import ar.edu.telefonia.domain.Llamada
-import ar.edu.telefonia.domain.Empresa
-import org.junit.Test
-import org.junit.Assert
-import org.hibernate.HibernateException
+import ar.edu.telefonia.domain._
 import org.hibernate.LazyInitializationException
+import org.junit.runner.RunWith
+import org.scalatest._
 
-class TestHomeTelefonia {
+class TestHomeTelefonia extends FlatSpec with BeforeAndAfter with ShouldMatchers {
 
   var walterWhite: Abonado = _
   var jessePinkman: Abonado = _
   var homeTelefonia = HomeTelefonia
   var llamada1: Llamada = new Llamada(walterWhite, jessePinkman, 10)
 
-  @Before
-  def init() {
+  before {
     walterWhite = new Residencial()
     walterWhite.nombre = "Walter White"
     walterWhite.numero = "46710080"
@@ -66,29 +58,27 @@ class TestHomeTelefonia {
     existe
   }
 
-  @Test
-  def walterWhiteTiene2Llamadas() {
-    var walterWhiteBD = homeTelefonia.getAbonado(walterWhite, true)
-    var llamadasDeWalterWhite = walterWhiteBD.llamadas
-    Assert.assertEquals(2, llamadasDeWalterWhite.size)
+  "Walter White" should "have 2 calls" in {
+    val walterWhiteBD = homeTelefonia.getAbonado(walterWhite, true)
+    val llamadasDeWalterWhite = walterWhiteBD.llamadas
+    assert(2 == llamadasDeWalterWhite.size)
   }
 
-  @Test(expected = classOf[LazyInitializationException])
-  def walterWhiteTiene2LlamadasSinSesionHibernate() {
-    var walterWhiteBD = homeTelefonia.getAbonado(walterWhite, false)
-    var llamadasDeWalterWhite = walterWhiteBD.llamadas.size
+  "Walter White" should "have 2 calls, but without Hibernate we can't obtaint them" in {
+    val walterWhiteBD = homeTelefonia.getAbonado(walterWhite, false)
+    an [LazyInitializationException] should be thrownBy {
+      walterWhiteBD.llamadas.size
+    }
   }
 
-  @Test
-  def deudaDeWalterWhite() {
-    var walterWhiteBD = homeTelefonia.getAbonado(walterWhite, true)
-    Assert.assertEquals(860, walterWhiteBD.deuda, 0.1)
+  "Walter White" should "have $ 860 debt" in {
+      var walterWhiteBD = homeTelefonia.getAbonado(walterWhite, true)
+      assert(860 == walterWhiteBD.deuda, 0.1)
   }
 
-  @Test
-  def walterWhiteCostoDeLlamada1() {
+  "Walter White" should "have a $ 20 call" in {
     var walterWhiteBD = homeTelefonia.getAbonado(walterWhite, true)
-    Assert.assertEquals(20, walterWhiteBD.costo(llamada1), 0.1)
+    assert(20 == walterWhiteBD.costo(llamada1), 0.1)
   }
 
 }
