@@ -1,21 +1,14 @@
 package ar.edu.telefonia.home
 
-import ar.edu.telefonia.domain.Abonado
-import org.hibernate.HibernateException
-import org.hibernate.SessionFactory
-import org.hibernate.cfg.AnnotationConfiguration
+import ar.edu.telefonia.domain._
+import org.hibernate.cfg.Configuration
 import org.hibernate.criterion.Restrictions
-import ar.edu.telefonia.domain.Abonado
-import ar.edu.telefonia.domain.Factura
-import ar.edu.telefonia.domain.Llamada
-import ar.edu.telefonia.domain.Residencial
-import ar.edu.telefonia.domain.Rural
-import ar.edu.telefonia.domain.Empresa
+import org.hibernate.{HibernateException, SessionFactory}
 
 object HomeTelefonia {
 
   	private final def sessionFactory : SessionFactory = 
-		new AnnotationConfiguration()
+		new Configuration()
 			.configure()
 			.addAnnotatedClass(classOf[Factura])
 			.addAnnotatedClass(classOf[Llamada])
@@ -28,7 +21,7 @@ object HomeTelefonia {
 	def getAbonado(abonado : Abonado) : Abonado = {
 		getAbonado(abonado, false)
   	}
-  	
+
   	def getAbonado(abonado : Abonado, full: Boolean) : Abonado = {
   		var result : java.util.List[_] = null
 		val session = sessionFactory.openSession()
@@ -41,7 +34,7 @@ object HomeTelefonia {
 			if (result.isEmpty) {
 				null
 			} else {
-				var abonado = result.get(0).asInstanceOf[Abonado]
+				val abonado = result.get(0).asInstanceOf[Abonado]
 				if (full) {
 				  abonado.facturas.size()
 				  abonado.llamadas.size()

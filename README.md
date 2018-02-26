@@ -1,7 +1,8 @@
 # Telefonía
 
 ## Prerrequisitos
-Necesitás instalar un motor de base de datos relacional (te recomendamos [MySQL](https://www.mysql.com/) que es OpenSource y gratuito)
+Necesitás instalar un motor de base de datos relacional (te recomendamos [MySQL](https://www.mysql.com/) que es OpenSource y gratuito).
+También necesitás un IDE o entorno para programar en Scala, este proyecto necesita [IntelliJ Community](https://www.jetbrains.com/idea/) que es gratuito junto con el [plugin de Scala](https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html)
 
 ## Objetivo
 El ejemplo de [abonados de una empresa telefónica](https://sites.google.com/site/utndesign/material/guia-de-ejercicios/guia-modelado-datos/orm_telefonia) muestra cómo mapear relaciones de herencia, one-to-many y many-to-one en Hibernate.
@@ -28,4 +29,4 @@ para que apunte allí:
 
 ## Diagrama de entidad-relación
 
-![Solución](https://github.com/uqbar-project/eg-telefonia-hibernate-xtend/blob/master/docs/DER%20telefonia.png)
+![Solución](https://github.com/uqbar-project/eg-telefonia-hibernate-xtend/blob/master/docs/DER.png)
