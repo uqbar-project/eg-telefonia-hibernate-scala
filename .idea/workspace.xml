@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8aa695-1f38-40bb-9b62-b60cfcd89384" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/META-INF/persistence.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate-configuration-3.0.dtd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ar/edu/telefonia/home/HomeTelefonia.scala" afterPath="$PROJECT_DIR$/src/main/scala/ar/edu/telefonia/home/RepoTelefonia.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ar/edu/telefonia/home/HomeTelefoniaTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/ar/edu/telefonia/home/HomeTelefoniaTest.scala" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/telefonia/home/HomeTelefonia$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ar/edu/telefonia/home/HomeTelefonia.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate-configuration-3.0.dtd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
       <change beforePath="$PROJECT_DIR$/telefonia-hibernate-scala.iml" afterPath="$PROJECT_DIR$/telefonia-hibernate-scala.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/ar/edu/telefonia/home/RepoTelefonia.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="e#31#74#0" expanded="true" />
               </folding>
@@ -162,6 +153,21 @@
               <item name="eg-telefonia-hibernate-scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eg-telefonia-hibernate-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eg-telefonia-hibernate-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eg-telefonia-hibernate-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eg-telefonia-hibernate-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,19 +195,6 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="telefonia" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eg-telefonia-hibernate-scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eg-telefonia-hibernate-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eg-telefonia-hibernate-scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eg-telefonia-hibernate-scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eg-telefonia-hibernate-scala" type="b2602c69:ProjectViewProjectNode" />
@@ -245,6 +238,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
@@ -477,14 +471,14 @@
     <history-entry file="HomeTelefoniaTest - 2018.02.26 at 13h 18m 43s.xml">
       <configuration name="HomeTelefoniaTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="HomeTelefoniaTest - 2018.02.26 at 13h 26m 12s.xml">
+      <configuration name="HomeTelefoniaTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HomeTelefoniaTest - 2018.02.26 at 13h 26m 52s.xml">
+      <configuration name="HomeTelefoniaTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
     <history-entry file="TestHomeTelefonia - 2018.02.26 at 11h 29m 03s.xml">
       <configuration name="TestHomeTelefonia" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHomeTelefonia_Walter_White_should_have_2_calls,_but_without_Hibernate_we_can't_obtaint_them - 2018.02.26 at 11h 24m 29s.xml">
-      <configuration name="TestHomeTelefonia.Walter White should have 2 calls, but without Hibernate we can't obtaint them" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHomeTelefonia_Walter_White_should_have_2_calls_Walter_White_should_have_2_calls,_but_without_Hibernate_we_can't_obtaint_them_Walter_White_should_have_$_860_debt_Walter_White_should_have_a_$_20_call - 2018.02.26 at 11h 24m 51s.xml">
-      <configuration name="TestHomeTelefonia.Walter White should have 2 calls&#10;Walter White should have 2 calls, but without Hibernate we can't obtaint them&#10;Walter White should have $ 860 debt&#10;Walter White should have a $ 20 call" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestHomeTelefonia_Walter_White_should_have_2_calls_Walter_White_should_have_2_calls,_but_without_Hibernate_we_can't_obtaint_them_Walter_White_should_have_$_860_debt_Walter_White_should_have_a_$_20_call - 2018.02.26 at 11h 27m 59s.xml">
       <configuration name="TestHomeTelefonia.Walter White should have 2 calls&#10;Walter White should have 2 calls, but without Hibernate we can't obtaint them&#10;Walter White should have $ 860 debt&#10;Walter White should have a $ 20 call" configurationId="ScalaTestRunConfiguration" />
@@ -492,19 +486,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="27" width="1922" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982087" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -619,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/ar/edu/telefonia/home/RepoTelefonia.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
             <element signature="e#31#74#0" expanded="true" />
           </folding>
